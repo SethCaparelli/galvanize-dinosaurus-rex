@@ -24,6 +24,6 @@
 3. Navigate to this folder and run `npm test`.
 
 #### Deployed Link
-
+rural-pain.surge.sh
 #### Framework of choice
 React.js

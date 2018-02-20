@@ -52,9 +52,9 @@ class InputForm extends Component {
                     {this.state.isHidden ? "" : <p id="message">Your application was submitted!</p>}
                     <br/>
                     <br/>
+                </form>
                     <button onClick={(e) => {this.togglePreview(e)}} id="preview-toggle">Show Preview</button>
                     {this.state.hidePreview ? "" : <Preview details={this.state.words} />}
-                </form>
             </div>
         )
     }
