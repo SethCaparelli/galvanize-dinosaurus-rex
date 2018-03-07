@@ -54,7 +54,7 @@ class InputForm extends Component {
                     <br/>
                 </form>
                     <button onClick={(e) => {this.togglePreview(e)}} id="preview-toggle">Show Preview</button>
-                    {this.state.hidePreview ? "" : <Preview details={this.state.words} />}
+                    {this.state.hidePreview === true ? "" : <Preview details={this.state.words} />}
             </div>
         )
     }
